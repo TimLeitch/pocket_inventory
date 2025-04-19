@@ -1,15 +1,11 @@
 ---
-description: 
-globs: .cursorrules,.cursor/rules/**/*.mdc
-alwaysApply: false
----
----
 description: Standards for creating new Cursor rules
-globs: 
+globs:
   - ".cursorrules"
   - ".cursor/rules/**/*.mdc"
 alwaysApply: false
 ---
+
 # Rule Creation Guidelines
 - Make rules specific and actionable
 - Focus on patterns rather than individual instances
