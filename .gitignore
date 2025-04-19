@@ -1,0 +1,62 @@
+.env
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Eclipse
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+modules.xml
+.idea/misc.xml
+*.ipr
+.idea/modules/
+.idea/gradle.xml
+.idea/jarRepositories.xml
+
+# VSCode
+.vscode/
+.history/
+
+# Minecraft/Forge
+run/
+logs/
+.mixin.out/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Java
+*.class
+hs_err_pid*
+
+# Fabric
+.fabric/
+
+# Remappings
+remappedSrc/
+
+# Local development
+local.properties
+
+# Cursor
+.cursor/
