@@ -1,0 +1,59 @@
+---
+description: 
+globs: .cursorrules,.cursor/rules/**/*.mdc
+alwaysApply: false
+---
+---
+description: Standards for creating new Cursor rules
+globs: 
+  - ".cursorrules"
+  - ".cursor/rules/**/*.mdc"
+alwaysApply: false
+---
+# Rule Creation Guidelines
+- Make rules specific and actionable
+- Focus on patterns rather than individual instances
+- Use clear, concise language
+- Include examples where appropriate
+
+# Rule Structure
+- Start with clear description and scope
+- Define glob patterns precisely
+- Use hierarchical organization
+- Reference other rules rather than duplicating content
+
+# Glob Pattern Best Practices
+- Start with most specific patterns
+- Use negative patterns to exclude exceptions
+- Be mindful of performance with overly broad patterns
+- Test patterns against sample files
+
+# Security Considerations for Rules
+- Never include secrets or credentials in rules
+- Use references to security guidelines
+- Create specific rules for security-sensitive areas
+- Include security scanning in review processes
+
+# Rule Testing
+- Validate rules against existing code
+- Check for conflicts between rules
+- Ensure rules provide actionable guidance
+- Verify glob patterns match intended files
+
+# Rule Maintenance
+- Update rules as project evolves
+- Document changes to rules
+- Keep rules consistent with project conventions
+- Remove obsolete rules
+
+# Agent Behavior Configuration
+- Define clear expectations for AI assistance
+- Provide context-specific guidance
+- Configure different behaviors for different file types
+- Include examples of proper implementation
+
+# Documentation References
+- Use @syntax to reference other documents
+- Keep documentation DRY (Don't Repeat Yourself)
+- Update references when documents change
+- Ensure referenced documents exist and are accessible

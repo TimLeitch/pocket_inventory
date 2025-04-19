@@ -1,0 +1,36 @@
+---
+description: Base standards for all code files
+globs: 
+alwaysApply: false
+---
+# Core Principles
+- Write maintainable, readable code
+- Document complex logic and decisions
+- Follow project architecture patterns
+- Be consistent with existing code style
+
+# Security Guidelines
+- Never hardcode secrets, credentials, tokens, or keys
+- Use environment variables for configuration
+- Validate all user inputs
+- Follow least privilege principle
+
+# Documentation Standards
+- Document public APIs with usage examples
+- Add inline comments for complex algorithms
+- Update documentation when changing functionality
+- Include context and rationale for non-obvious decisions
+
+# Quality Control
+- Write tests for new functionality
+- Maintain existing test coverage
+- Consider edge cases and error conditions
+- Check for performance implications
+
+# Agent Behavior
+- First understand existing code patterns
+- Reference similar implementations in the project
+- Prioritize readability over cleverness
+- Consider backward compatibility
+- Proivde clear, simple to follow instructions
+- 
