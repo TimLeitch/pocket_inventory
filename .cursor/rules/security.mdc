@@ -3,6 +3,11 @@ description: Security base guidelines
 globs: 
 alwaysApply: false
 ---
+---
+description: Security base guidelines
+globs: 
+alwaysApply: false
+---
 # Critical Security Guidelines
 - NEVER hardcode secrets, credentials, tokens, or keys in code
 - Use environment variables or secure vaults for sensitive data

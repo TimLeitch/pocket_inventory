@@ -1,4 +1,9 @@
 ---
+description: Base code guidelines
+globs: 
+alwaysApply: false
+---
+---
 description: Base standards for all code files
 globs: 
 alwaysApply: false

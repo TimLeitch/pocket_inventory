@@ -1,0 +1,10 @@
+JVM info: Microsoft - 21.0.7 - 21.0.7+6-LTS
+java.net.preferIPv4Stack=true
+Current Time: 04/05/2025 14:38:48
+Host: maven.neoforged.net [212.102.46.10]
+Host: libraries.minecraft.net [13.107.246.70]
+Host: launchermeta.mojang.com [13.107.246.70]
+Host: piston-meta.mojang.com [13.107.253.70]
+Host: sessionserver.mojang.com [13.107.246.70]
+Found java version 21.0.7
+Following redirect: https://neoforged.net/mirrorlist.json

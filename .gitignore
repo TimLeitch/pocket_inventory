@@ -1,62 +1,28 @@
-.env
-
-# Gradle
-.gradle/
-build/
-out/
-classes/
-
-# Eclipse
+# eclipse
+bin
 *.launch
-.settings/
-.metadata/
+.settings
+.metadata
 .classpath
 .project
-bin/
-tmp/
 
-# IntelliJ IDEA
-.idea/
+# idea
+out
+*.ipr
+*.iws
 *.iml
-*.iws
-*.ipr
-*.iws
-modules.xml
-.idea/misc.xml
-*.ipr
-.idea/modules/
-.idea/gradle.xml
-.idea/jarRepositories.xml
+.idea
 
-# VSCode
-.vscode/
-.history/
+# gradle
+build
+.gradle
 
-# Minecraft/Forge
-run/
-logs/
-.mixin.out/
+# other
+eclipse
+run
+runs
+run-data
 
-# Mac OS
-.DS_Store
+repo
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Java
-*.class
-hs_err_pid*
-
-# Fabric
-.fabric/
-
-# Remappings
-remappedSrc/
-
-# Local development
-local.properties
-
-# Cursor
-# .cursor/
+.cursor

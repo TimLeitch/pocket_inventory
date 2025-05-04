@@ -1,4 +1,9 @@
 ---
+description: 
+globs: *.mdc
+alwaysApply: false
+---
+---
 description: Standards for creating new Cursor rules
 globs:
   - ".cursorrules"
